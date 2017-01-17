@@ -18,5 +18,5 @@ for i=1:N
    NumberofHeads(1,i)=fair_coin;
 end
 y=NumberofHeads;
-x=(1:N);
-bar(x,y);
+x=1:50;
+hist(NumberofHeads,x);
